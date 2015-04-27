@@ -42,11 +42,12 @@ exports.register = function(commander){
                 }
             };
         }
-
+        console.log(root);
         require('chokidar')
             .watch(root, {
                 ignored : function(path){
                     var ignored = ignoredReg.test(path);
+                    console.log(path);
                     if (fis.config.get('project.exclude')){
                         ignored = ignored ||
                             fis.util.filter(path, fis.config.get('project.exclude'));
