@@ -1,15 +1,15 @@
 {
-  "name": "fis-command-release",
-  "description": "fis release command.",
-  "version": "0.11.6",
-  "author": "FIS Team <fis@baidu.com>",
-  "homepage": "http://fis.baidu.com/",
+  "name": "qfe-command-release",
+  "description": "qfe release command.",
+  "version": "0.0.1",
+  "author": "GilbertSun <szb4321@gmail.com>, FIS Team <fis@baidu.com>",
   "keywords": [
-    "fis"
+    "fis",
+    "qfe"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fis-dev/fis-command-release.git"
+    "url": "https://github.com/GilbertSun/qfe-command-release.git"
   },
   "engines": {
     "node": ">= 0.8.0"
